@@ -1,7 +1,10 @@
+//https://www.sololearn.com/learning/1023/2253/4509/1
 em{
   background-color: white;
     //  color: navy;
     color: black;
+  animation-name : example;
+  animation-duration: 4s;
 }
 
 .em2{
