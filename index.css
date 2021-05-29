@@ -9,3 +9,10 @@ em{
     //  color: navy;
     color: white ;
 }
+
+@keyframes example {
+   0%  {background-color: white;}
+   50%  {background-color: black;}
+   70%  {background-color: white;}
+   100% {background-color: black;}
+}
