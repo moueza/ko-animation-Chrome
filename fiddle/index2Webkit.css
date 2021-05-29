@@ -1,0 +1,26 @@
+//https://www.sololearn.com/learning/1023/2253/4509/1
+
+//https://stackoverflow.com/questions/24806812/css-keyframes-not-working-in-chrome
+//http://jsfiddle.net/996Uk/
+@-webkit-keyframes mymove {
+    0% {
+        top:0px;
+    }
+    25% {
+        top:200px;
+    }
+    50% {
+        top:100px;
+    }
+    75% {
+        top:200px;
+    }
+    100% {
+        top:0px;
+    }
+}
+#block {
+    position:absolute;
+    -webkit-animation: mymove 2s infinite;
+}
+

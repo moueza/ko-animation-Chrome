@@ -1,8 +1,8 @@
 //https://www.sololearn.com/learning/1023/2253/4509/1
 body{
 
-  animation-name : example;
-  animation-duration: 4s;
+  -webkit-animation-name : example;
+  -webkit-animation-duration: 4s;
 }
 
 
@@ -18,7 +18,8 @@ em{
     color: white ;
 }
 
-@keyframes example {
+//https://stackoverflow.com/questions/24806812/css-keyframes-not-working-in-chrome
+@-webkit-keyframes example {
    0%  {background-color: white;}
    50%  {background-color: black;}
    70%  {background-color: white;}
