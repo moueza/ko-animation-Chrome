@@ -17,7 +17,10 @@ em{
     //  color: navy;
     color: white ;
 }
-
+.ko2{
+background-color: black;
+color:white;
+}
 //https://stackoverflow.com/questions/24806812/css-keyframes-not-working-in-chrome
 @-webkit-keyframes example {
    0%  {background-color: white;}
