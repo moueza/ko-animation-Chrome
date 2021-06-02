@@ -5,7 +5,11 @@
   -webkit-animation-duration: 4s;
 }
 
+#body{
 
+  -webkit-animation-name : example;
+  -webkit-animation-duration: 4s;
+}
 em{
  // background-color: white;
     //  color: navy;
@@ -21,6 +25,7 @@ em{
 background-color: black;
 color:white;
 }
+#ko2id{}
 //https://stackoverflow.com/questions/24806812/css-keyframes-not-working-in-chrome
 @-webkit-keyframes example {
    0%  {background-color: white;}
